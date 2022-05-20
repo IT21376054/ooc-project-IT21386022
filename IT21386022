@@ -1,0 +1,54 @@
+#include "GuestUser.h"
+#include <cstring>
+GuestUser::GuestUser()
+{
+	userID = 0;
+	strcpy(userFname, "");
+	strcpy(userLname, "");
+	strcpy(userEmail, "");
+}
+GuestUser::GuestUser(int puserid, const char puserfname[], const char puserlname[], const char puseremail[]){
+	userID = puserid;
+	strcpy(userFname, puserfname);
+	strcpy(userLname, puserlname);
+	strcpy(userEmail, puseremail);
+}
+
+void GuestUser::registerUser()
+{
+}
+void GuestUser::displayDetails()
+{
+}
+GuestUser::~GuestUser()
+{
+	//Destructor
+}
+
+#include "GuestUser.h"
+#include <cstring>
+GuestUser::GuestUser()
+{
+	userID = 0;
+	strcpy(userFname, "");
+	strcpy(userLname, "");
+	strcpy(userEmail, "");
+}
+GuestUser::GuestUser(int puserid, const char puserfname[], const char puserlname[], const char puseremail[]){
+	userID = puserid;
+	strcpy(userFname, puserfname);
+	strcpy(userLname, puserlname);
+	strcpy(userEmail, puseremail);
+}
+
+void GuestUser::registerUser()
+{
+}
+void GuestUser::displayDetails()
+{
+}
+GuestUser::~GuestUser()
+{
+	//Destructor
+}
+
